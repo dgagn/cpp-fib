@@ -21,7 +21,7 @@ uint64_t string2ulong(const std::string& ref) {
 
 int main(int argc, char* argv[]) {
   if (argc != 2) {
-    std::cerr << "Wrong number of arguments.";
+    std::cerr << "Wrong number of arguments." << std::endl;
     return 1;
   }
   try {
